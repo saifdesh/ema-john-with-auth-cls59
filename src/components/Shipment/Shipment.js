@@ -39,7 +39,7 @@ const Shipment = () => {
         <div className='form-container'>
 
             <div>
-                <h2 className='form-title'>Shipping information</h2>
+                <h2 className='form-title'>Your Shipping info</h2>
                 <form onSubmit={handleCreateUser}>
                     <div className='input-group'>
                         <label htmlFor='name'>Your Name</label>
