@@ -49,11 +49,11 @@ const Login = () => {
                 <h2 className='form-title'>Login Pls...</h2>
                 <form onSubmit={handleUserSignIn}>
                     <div className='input-group'>
-                        <label htmlFor='email'>Email</label>
+
                         <input onBlur={handleEmailBlur} type='email' name='email' placeholder='email' required />
                     </div>
                     <div className='input-group'>
-                        <label htmlFor='password'>Password</label>
+
                         <input onBlur={handlePasswordBlur} type='password' name='password' placeholder='password' required />
                     </div>
                     <p style={{ color: 'red' }}>{error?.message}</p>
@@ -64,7 +64,7 @@ const Login = () => {
 
                 </form>
                 <p>
-                    New to Ema-John? <Link className='form-link' to='/signup'>Create an account</Link>
+                    New to Book's Store? <Link className='form-link' to='/signup'>Create an account</Link>
                 </p>
             </div>
 

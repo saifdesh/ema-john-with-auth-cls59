@@ -1,0 +1,26 @@
+.container {
+    width: 500px;
+    height: 600px;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+.form-title {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+@media screen and (max-width:1100px) {
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

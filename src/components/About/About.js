@@ -1,11 +1,16 @@
 import React from 'react';
+import { Button, Col, Row } from 'react-bootstrap';
+import './About.css';
 
 const About = () => {
     return (
-        <div>
-            <h1>We are secret.</h1>
-            <p>But you can know about us.</p>
-        </div>
+        <div className='container-about'>
+            <h1 className='books'>Book's Fair</h1>
+            <p>Book's fair is one of the largest books store, we are care about your books
+                whateever you want, we can deliver to you</p>
+
+
+        </div >
     );
 };
 

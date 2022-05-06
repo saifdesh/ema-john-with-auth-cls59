@@ -1,0 +1,12 @@
+.books {
+    text-align: center;
+}
+
+.books:hover {
+    color: orange;
+}
+
+.container-about {
+    margin-left: 25px;
+    padding: 10px;
+}

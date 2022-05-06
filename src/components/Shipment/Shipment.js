@@ -42,20 +42,20 @@ const Shipment = () => {
                 <h2 className='form-title'>Your Shipping info</h2>
                 <form onSubmit={handleCreateUser}>
                     <div className='input-group'>
-                        <label htmlFor='name'>Your Name</label>
+
                         <input onBlur={handleEmailBlur} type='text' name='name' placeholder='Your name' required />
                     </div>
                     <div className='input-group'>
-                        <label htmlFor='email'>Email</label>
+
                         <input value={user?.email} readOnly type='email' name='email' placeholder='Email' required />
                     </div>
 
                     <div className='input-group'>
-                        <label htmlFor='name'>Address</label>
+
                         <input onBlur={handleAddressBlur} type='text' name='address' placeholder='Address' required />
                     </div>
                     <div className='input-group'>
-                        <label htmlFor='name'>Phone Number</label>
+
                         <input onBlur={handlePhoneBlur} type='text' name='address' placeholder='Phone number' required />
                     </div>
 

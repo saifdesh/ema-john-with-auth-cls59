@@ -11,10 +11,12 @@ import Shipment from './components/Shipment/Shipment';
 import Shop from './components/Shop/Shop';
 import Signup from './components/SignUp/Signup';
 
+
 function App() {
   return (
     <div>
       <Header></Header>
+
       <Routes>
         <Route path='/' element={<Shop></Shop>}></Route>
         <Route path='/shop' element={<Shop></Shop>}></Route>
